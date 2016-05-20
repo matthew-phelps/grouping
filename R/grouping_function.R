@@ -19,7 +19,7 @@
 #' grouping(x, 3, FUN = "sum")
 
 
-grouping <- function(x, group_of, FUN = "sum", age_labels = F) {
+group2 <- function(x, group_of, FUN = "sum", age_labels = F) {
   #browser()
   if ((nrow(x) / group_of)%%1 != 0) {
     stop("The number of age groups is incorrect for data set. The number of groups
