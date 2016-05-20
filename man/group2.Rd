@@ -22,14 +22,8 @@ A dataset that has been groupped by \code{group_of} and has had
   \code{FUN} perfomed on the grouping.
 }
 \description{
-Created to count the number of people in a
-certain age range. Function tested using a data frame with continuous age
-values in one column, and counts of people in another column.
-}
-\examples{
-Sum the number of males and females in a user-specified age range
-# create dateset of male and female counts
-x <- data.frame(age = c(1:6), male = c(0,1,6,2,3,8), females = c(7,1,6,2,7,6))
-grouping(x, 3, FUN = "sum")
+Created to count the number of people in a certain age range. Function tested
+using a data frame with continuous age values in one column, and counts of
+people in another column.
 }
 
