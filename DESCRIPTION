@@ -1,5 +1,5 @@
 Package: grouping
-Title: What the Package Does (one line, title case)
+Title: Groups count data based on age range
 Version: 0.0.0.9000
 Authors@R: person("Matthew", "Phelps", email = "ma.phelps@gmail.com", role = c("aut", "cre"))
 Description: Conatains one function to group counts of people by age.
