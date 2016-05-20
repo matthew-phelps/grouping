@@ -26,4 +26,10 @@ Created to count the number of people in a certain age range. Function tested
 using a data frame with continuous age values in one column, and counts of
 people in another column.
 }
+\examples{
+### Sum the number of men in each user defined age group
+ # create data
+ x <- data.frame(age = c(1:6), males = c(0,1,0,2,3,5), females = c(4,6,2,1,0,1))
+ group2(x, 3, "sum")
+}
 

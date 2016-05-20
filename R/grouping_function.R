@@ -12,7 +12,11 @@
 #'   1st age group starts at 0.
 #' @return A dataset that has been groupped by \code{group_of} and has had
 #'   \code{FUN} perfomed on the grouping.
-#'
+#' @examples ### Sum the number of men in each user defined age group
+#'  # create data
+#'  x <- data.frame(age = c(1:6), males = c(0,1,0,2,3,5), females = c(4,6,2,1,0,1))
+#'  group2(x, 3, "sum")
+#'@export
 
 
 group2 <- function(x, group_of, FUN = "sum", age_labels = F) {
